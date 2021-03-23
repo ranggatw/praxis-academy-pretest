@@ -1,0 +1,61 @@
+syntax :
+1. ls ==> cmdline.txt  env.txt  grub.txt  kasus  kernel-linux.txt  shellscript
+2. ls -R ==> cmdline.txt  env.txt  grub.txt  kasus  kernel-linux.txt  shellscript
+
+./kasus:
+
+./shellscript:
+add_numbers.sh         directory_exist.sh     if_with_AND.sh        sleep_example.sh
+append_file.sh         echo_examples.sh       if_with_OR.sh         string_combine.sh
+book.txt               elseif_example.sh      mail_example.sh       substring_example.sh
+case_example.sh        file_exist.sh          make_directory.sh     user_input.sh
+command_line_names.sh  First.sh               multiline-comment.sh  wait_example.sh
+command_line.sh        for_example.sh         rangga                while_example.sh
+comment_examples.sh    function_example.sh    ranggaNew
+date_parse.sh          function_parameter.sh  read_file.sh
+delete_file.sh         function_return.sh     simple_if.sh
+
+./shellscript/rangga:
+
+./shellscript/ranggaNew:
+
+
+
+3. ls -al
+total 32
+drwxrwxr-x 4 rangga rangga 4096 Feb  3 09:22 .
+drwxrwxr-x 3 rangga rangga 4096 Feb  3 07:26 ..
+-rw-rw-r-- 1 rangga rangga    0 Feb  3 07:36 cmdline.txt
+-rw-rw-r-- 1 rangga rangga 1024 Feb  3 09:22 .cmdline.txt.swp
+-rw-rw-r-- 1 rangga rangga  497 Feb  3 09:16 env.txt
+-rw-rw-r-- 1 rangga rangga  111 Feb  3 09:04 grub.txt
+drwxrwxr-x 2 rangga rangga 4096 Feb  3 09:02 kasus
+-rw-rw-r-- 1 rangga rangga  224 Feb  3 09:20 kernel-linux.txt
+drwxrwxr-x 4 rangga rangga 4096 Feb  3 08:59 shellscript
+
+4. ls -a
+.  ..  cmdline.txt  .cmdline.txt.swp  env.txt  grub.txt  kasus  kernel-linux.txt  shellscript
+
+
+5.cat book.txt
+. Pro Coder
+2. Pro grammer
+3. Pro gamer
+Learning Laravel 8
+
+
+6. mv book.txt /latihan/kasus > file book.txt akan berpindah ke direktori /latihan/kasus
+
+7.shutdown > akan mematikan perangkat 
+
+8. uname ==> menampilkan nama operasi sistem
+ 
+Linux
+
+
+9. whoami  ===> menampilkan nama user/login
+rangga
+
+10. sudo su ==> merubah hak akses terminal ke super user
+root@rangga-T460:/home/rangga# 
+

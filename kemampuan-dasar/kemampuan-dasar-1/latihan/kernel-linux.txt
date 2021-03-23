@@ -1,0 +1,11 @@
+Dengan syntax : uname -srm
+Linux 5.8.0-41-generic x86_64
+
+Penjelasan :
+5 - Versi kernel
+8 - Major revision
+0 - Minor revision
+41 - Patch Number
+generic - Informasi spesifik distribusi
+x86 - Arsitektur OS
+64 - bit version OS

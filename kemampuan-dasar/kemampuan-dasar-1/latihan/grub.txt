@@ -1,0 +1,5 @@
+*Ubuntu
+	Advance options for Ubuntu
+	Memory test (memtest86+)
+	Memory test (memtest86+, serial console 11520)
+
